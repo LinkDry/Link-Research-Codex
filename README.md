@@ -124,7 +124,7 @@ For the real day-1 path into Phase 1, use:
 - `docs/guides/phase1-quickstart.md`
 - `docs/guides/recovery-and-resume.md`
 - `docs/guides/dashboard-usage.md`
-- `Agent.md`
+- `AGENTS.md`
 
 The intended operator loop is:
 

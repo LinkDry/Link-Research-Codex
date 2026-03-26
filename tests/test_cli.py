@@ -91,7 +91,8 @@ def test_readme_documents_cli_quickstart():
     assert "novelty-check" in content
     assert "phase2-publish" in content
     assert "lowercase letters, numbers, and hyphens only" in content
-    assert "Agent.md" in content
+    assert "AGENTS.md" in content
+    assert "Agent.md" not in content
     assert "Codex-first" in content
     assert "docs/history-summary.md" not in content
     assert "Claude-first" not in content
@@ -100,12 +101,14 @@ def test_readme_documents_cli_quickstart():
     assert "V2 rebuild" not in content
 
 
-def test_root_agent_entrypoint_exists_and_points_to_live_surface():
+def test_root_agents_entrypoint_exists_and_points_to_live_surface():
     repo_root = Path(__file__).resolve().parents[1]
-    agent = repo_root / "Agent.md"
+    agent = repo_root / "AGENTS.md"
+    old_agent = repo_root / "Agent.md"
     legacy = repo_root / "CLAUDE.md"
 
     assert agent.exists()
+    assert not old_agent.exists()
     assert not legacy.exists()
     content = agent.read_text(encoding="utf-8")
     assert "current-project" in content
