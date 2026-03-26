@@ -5,7 +5,7 @@ def test_render_dashboard_html_includes_core_sections():
     dashboard = {
         "meta": {
             "generated_at": "2026-03-25T12:00:00+08:00",
-            "schema_version": "v2-draft",
+            "schema_version": "schema-2026-03",
             "is_derived": True,
         },
         "project": {

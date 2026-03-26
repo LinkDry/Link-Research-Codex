@@ -85,7 +85,6 @@ def test_readme_documents_cli_quickstart():
     assert "docs/guides/phase1-quickstart.md" in content
     assert "docs/guides/recovery-and-resume.md" in content
     assert "docs/guides/dashboard-usage.md" in content
-    assert "docs/history-summary.md" in content
     assert "codex --version" in content
     assert "python -m tools.link_research_cli codex-healthcheck" in content
     assert 'codex exec -m gpt-5.4 "Reply with exactly: GPT54_OK"' in content
@@ -94,6 +93,7 @@ def test_readme_documents_cli_quickstart():
     assert "lowercase letters, numbers, and hyphens only" in content
     assert "Agent.md" in content
     assert "Codex-first" in content
+    assert "docs/history-summary.md" not in content
     assert "Claude-first" not in content
     assert "claude mcp add codex" not in content
     assert "Link-Research V2" not in content
@@ -114,7 +114,7 @@ def test_root_agent_entrypoint_exists_and_points_to_live_surface():
     assert "Codex" in content
     assert "GPT-5.4" in content
     assert "novelty-check" in content
-    assert "docs/history-summary.md" in content
+    assert "docs/history-summary.md" not in content
     assert "docs/plans/" not in content
     assert "Claude" not in content
 
@@ -260,9 +260,9 @@ def test_cli_codex_healthcheck_reports_success(
     assert "GPT54_OK" in captured.out
 
 
-def test_docs_history_summary_replaces_old_history_dirs():
+def test_repo_no_longer_exposes_history_summary_as_an_operator_surface():
     repo_root = Path(__file__).resolve().parents[1]
 
-    assert (repo_root / "docs" / "history-summary.md").exists()
+    assert not (repo_root / "docs" / "history-summary.md").exists()
     assert not (repo_root / "docs" / "plans").exists()
     assert not (repo_root / "docs" / "skills").exists()

@@ -18,7 +18,6 @@ Codex is the default operator for this repository. Keep work grounded in the can
 - Quickstart: `docs/guides/phase1-quickstart.md`
 - Resume and recovery: `docs/guides/recovery-and-resume.md`
 - Dashboard usage: `docs/guides/dashboard-usage.md`
-- Optional history context: `docs/history-summary.md`
 - Project scaffold source: `scaffold/project/`
 - Research skills: `skills/*/SKILL.md`
 
@@ -86,4 +85,3 @@ Pause first for actions such as archive decisions, destructive cleanup, remote e
 
 - Use `scaffold/project/` as the canonical seed for new projects and fixture validation.
 - Route live work through `docs/guides/`, `docs/policies/`, `docs/schema/`, `docs/views/`, and root `skills/*/SKILL.md`.
-- Treat `docs/history-summary.md` as optional background only, not as an active operator spec.

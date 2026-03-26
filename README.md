@@ -124,7 +124,6 @@ For the real day-1 path into Phase 1, use:
 - `docs/guides/phase1-quickstart.md`
 - `docs/guides/recovery-and-resume.md`
 - `docs/guides/dashboard-usage.md`
-- `docs/history-summary.md`
 - `Agent.md`
 
 The intended operator loop is:
@@ -150,7 +149,6 @@ The intended operator loop is:
   - `docs/schema/`
   - `docs/views/`
   - root `skills/*/SKILL.md`
-- `docs/history-summary.md` is optional background only. It is not an operator entrypoint.
 - `scaffold/project/` is the canonical scaffold and repo fixture source for new projects.
 - `projects/` is reserved for live projects only.
 - `.link-research/runtime.json` is local operator convenience state, not canonical research state.
