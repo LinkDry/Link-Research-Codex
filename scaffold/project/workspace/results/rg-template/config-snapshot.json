@@ -1,0 +1,16 @@
+{
+  "snapshot_id": "cfg-template",
+  "project_id": "proj-template",
+  "experiment_id": "exp-template",
+  "idea_id": "idea-template",
+  "branch_id": "branch-main",
+  "run_id": "run-template",
+  "result_group_id": "rg-template",
+  "captured_at": "2026-03-24T00:00:00+08:00",
+  "method_under_test": "",
+  "mutable_values": {},
+  "immutable_values": {},
+  "data_config": {},
+  "environment": {},
+  "notes": []
+}

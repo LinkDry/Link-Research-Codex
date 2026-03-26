@@ -1,0 +1,36 @@
+{
+  "run_id": "run-template",
+  "run_type": "support",
+  "project_id": "proj-template",
+  "phase": "phase0",
+  "target_id": null,
+  "status": "completed",
+  "started_at": "2026-03-24T00:00:00+08:00",
+  "updated_at": "2026-03-24T00:00:00+08:00",
+  "finished_at": "2026-03-24T00:00:00+08:00",
+  "current_step_index": 1,
+  "current_step_name": "template-placeholder",
+  "resume_safe": false,
+  "decision_mode": "auto-report",
+  "human_attention": "none",
+  "blocking_reason": null,
+  "decision_type": null,
+  "decision_options_ref": null,
+  "decision_options": [],
+  "artifacts": [],
+  "errors": [],
+  "warnings": [],
+  "summary": "Template run state placeholder. Replace with active run data when execution begins.",
+  "steps": [
+    {
+      "index": 1,
+      "name": "template-placeholder",
+      "status": "completed",
+      "started_at": "2026-03-24T00:00:00+08:00",
+      "finished_at": "2026-03-24T00:00:00+08:00",
+      "input_ref": null,
+      "output_ref": null,
+      "notes": "Replace template step data with the concrete run plan."
+    }
+  ]
+}

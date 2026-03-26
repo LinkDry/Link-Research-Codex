@@ -1,0 +1,18 @@
+{
+  "analysis_id": "analysis-template",
+  "project_id": "proj-template",
+  "experiment_id": "exp-template",
+  "idea_id": "idea-template",
+  "branch_id": "branch-main",
+  "run_id": "run-template",
+  "result_group_id": "rg-template",
+  "generated_at": "2026-03-24T00:00:00+08:00",
+  "summary": "Summarize what the latest result means.",
+  "primary_findings": [],
+  "metric_interpretation": [],
+  "evidence_gaps": [],
+  "anomalies": [],
+  "recommended_next_action": "wait-human",
+  "referenced_results": [],
+  "referenced_artifacts": []
+}

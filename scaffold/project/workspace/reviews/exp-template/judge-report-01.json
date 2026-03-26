@@ -1,0 +1,52 @@
+{
+  "judge_report_id": "judge-exp-template-iter-01",
+  "project_id": "proj-template",
+  "experiment_id": "exp-template",
+  "idea_id": "idea-template",
+  "branch_id": "branch-main",
+  "iteration": 1,
+  "generated_at": "2026-03-24T00:00:00+08:00",
+  "anchor_path": "projects/<slug>/plans/<idea>/anchor.md",
+  "latest_result_ref": "results.tsv#rg-template",
+  "latest_analysis_ref": "projects/<slug>/workspace/results/rg-template/analysis-report.json",
+  "drift_gate_status": "consistent",
+  "success_criteria_status": "met",
+  "verdict": "pass",
+  "verdict_confidence": "high",
+  "next_experiment_action": "phase2-ready",
+  "archive_recommended": false,
+  "rationale_summary": [
+    "Template example for a passing line that is ready for Phase 2 handoff."
+  ],
+  "confounders": [],
+  "root_causes": [],
+  "suggested_actions": [
+    {
+      "action_id": "act-template-001",
+      "action_type": "phase2-handoff",
+      "summary": "Choose the initial paper positioning for the validated line.",
+      "expected_effect": "Begins Phase 2 from a governance-safe handoff."
+    }
+  ],
+  "decision_options": [
+    {
+      "option_id": "handoff-template-001",
+      "label": "Start the conservative Phase 2 draft",
+      "summary": "Keep the draft tightly aligned to the validated experiment claim.",
+      "pros": [
+        "Lowest governance risk"
+      ],
+      "cons": [
+        "Narrower initial framing"
+      ],
+      "recommended": true,
+      "expected_effect": "Cleanest evidence-to-paper handoff."
+    }
+  ],
+  "cross_model_review": {
+    "used": false,
+    "status": "skipped",
+    "recommended_verdict": null,
+    "notes": "Template artifact."
+  }
+}
